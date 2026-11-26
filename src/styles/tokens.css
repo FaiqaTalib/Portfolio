@@ -1,0 +1,52 @@
+:root {
+  /* Deep Petrol Obsidian & Warm Champagne Gold Theme (Zero White Backgrounds) */
+  --bg-obsidian: #071115;
+  --bg-deep: #0b181e;
+  --bg-surface: #10222a;
+  --bg-card: #142a34;
+  --bg-card-hover: #193440;
+  --bg-footer: #050c0f;
+
+  /* Luminous Accents */
+  --gold: #e6b96e;
+  --gold-bright: #f2cf91;
+  --gold-soft: rgba(230, 185, 110, 0.14);
+  --teal: #45d1b6;
+  --teal-soft: rgba(69, 209, 182, 0.13);
+
+  /* Typography Ink (Soft Warm Cream & Muted Sage-Slate) */
+  --ink-primary: #f4f1ea;
+  --ink-secondary: #c4d0d4;
+  --ink-muted: #8ca0a8;
+  --ink-on-gold: #121a1e;
+
+  /* Hairline Borders */
+  --border-subtle: rgba(196, 208, 212, 0.14);
+  --border-strong: rgba(230, 185, 110, 0.32);
+  --border-teal: rgba(69, 209, 182, 0.34);
+
+  /* Shadows */
+  --shadow-card: 0 20px 44px -18px rgba(2, 8, 11, 0.72);
+  --shadow-card-active: 0 28px 60px -16px rgba(2, 8, 11, 0.85), 0 0 0 1px rgba(230, 185, 110, 0.3);
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Radius Scale */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 22px;
+
+  /* Layout */
+  --container-max: 1200px;
+  --section-pad-y: 92px;
+  --nav-height: 72px;
+
+  /* Motion Curves */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 180ms var(--ease-out-expo);
+  --transition-smooth: 360ms var(--ease-out-expo);
+}
